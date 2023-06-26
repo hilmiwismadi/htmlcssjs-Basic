@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    display: flex;
+    flex-direction: column;
+    height: 100vb;
+    justify-content: center;
+    align-items: center;
+    background: url(https://wallpapercave.com/wp/wp3774906.jpg);
+    overflow: hidden;
+}
+
+h1{
+    text-transform: uppercase ;
+    letter-spacing: 16px;
+    font-size: medium;
+    text-align: center; 
+    color: ghostwhite;
+    opacity: .7;
+    font-size: 20px;
+}
+
+.clock{
+    display: flex;
+}
+
+.clock div{
+    margin: 10px;
+    color: aliceblue;
+}
+
+.clock span{
+    width: 120;
+    height: 90;
+    text-decoration-style: solid;
+    opacity: .9;
+    display: flex;
+    justify-content: first center;
+    align-items: first center;
+    font-size: 40px;
+
+}
